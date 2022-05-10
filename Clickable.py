@@ -9,4 +9,4 @@ handles = driver.window_handles
 for i in handles:
     driver.switch_to.window(i)
     clk1 = driver.find_element_by_id("button1").click()
-driver.close()
+driver.quit()
